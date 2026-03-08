@@ -1,9 +1,10 @@
 # 🔥 FireGuard - Mini Firewall Dashboard
 
-A full-stack web application to **manage, monitor, and visualize firewall rules and network traffic** in real time. Built as a portfolio project demonstrating skills in PHP, MySQL, AJAX, and cybersecurity concepts.
+A full-stack web application to **manage, monitor, and visualize firewall rules and network traffic** in real time. 
 
----
-
+I built FireGuard as a learning project to understand how firewall management interfaces work in professional network security environments.
+The goal was never to build a perfect product.it was to understand the domain. How firewall rules are structured, how traffic gets logged, how IP blacklisting works, and how threat alerts are triggered.
+-
 ## 🎯 Features
 
 - **Firewall Rule Management** — Create, toggle, and delete rules with protocol/port/IP filters (ALLOW / BLOCK / LOG)
@@ -110,12 +111,19 @@ This project directly implements concepts from:
 
 ---
 
-## 📸 Screenshots
 
-> Dashboard, Rules, and Blacklist pages available in `/screenshots/` folder.
 
----
 
 ## 📄 License
 
 MIT License — Free to use and modify.
+
+
+⚠️ Disclaimer
+FireGuard is a management interface — not a real packet filtering engine. It does not intercept actual network traffic. A real firewall operates at the OS kernel level using tools like iptables on Linux.
+
+
+
+👨‍💻 Author
+Backend Developer with interests in Cybersecurity.
+Currently preparing for CompTIA Security+.
